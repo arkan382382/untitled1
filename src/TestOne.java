@@ -35,6 +35,9 @@ public class TestOne {
         long creditCardNr = 1234_4523_2231_0002L;
         System.out.println(creditCardNr);               //without '_'
         // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
+
+        // arrays
+        int []anArray = new int[10];                    // declares and allocates memory for 10 integers
     }
 }
 
