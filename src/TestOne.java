@@ -45,3 +45,23 @@ class MountainBike extends Bicycle{
         System.out.print(tirePresure);
     }
 }
+
+interface vehicle{
+    void changeGear();
+
+    void speedUP();
+}
+
+ abstract class Car implements vehicle{
+    private int speed;
+    private int gear;
+
+
+    public void changeGear(int newGear) {
+        gear = newGear;
+    }
+
+    public void speedUP(int newSpeed) {
+        speed = newSpeed;
+    }
+}
