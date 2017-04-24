@@ -17,6 +17,24 @@ public class TestOne {
         secondBicycle.setTirePresure(2);
         secondBicycle.showDetails();
         secondBicycle.showTirePresure();
+
+        float f1 = 123.5f;
+        double f2 = 123.6;
+        float f3 = (float) 123.7;
+        System.out.println(f1);
+        System.out.println(f2);
+        System.out.println(f3);
+
+        double d1 = 122.2;
+        double d2 = 122.2d;
+        System.out.println(d1);
+        System.out.println(d2);
+
+        float pi = 3.14_15f;
+        System.out.println(pi);                         //3.1415
+        long creditCardNr = 1234_4523_2231_0002L;
+        System.out.println(creditCardNr);               //without '_'
+        // https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
     }
 }
 
