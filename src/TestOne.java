@@ -7,5 +7,20 @@ public class TestOne {
         System.out.println("after changes");
         //problem with github updates
 
+        Bicycle firstBicycle = new Bicycle();
+        firstBicycle.SetGear(2);
+        firstBicycle.ShowDetails();
+
+    }
+}
+
+class Bicycle{
+    private int gear;
+
+    void SetGear(int val){
+        gear = val;
+    }
+    void ShowDetails(){
+        System.out.print(gear);
     }
 }
